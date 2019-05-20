@@ -1,0 +1,70 @@
+---
+permalink: /
+---
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="{{ site.description }}">
+        <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+        {% if site.favicon_img %}
+        <link rel="shortcut icon" href="{{ site.favicon_img_path }}" />
+        {% endif %}
+        <!-- <link rel="stylesheet" href="{{ "/css/front.css" | prepend: site.baseurl }}"> -->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://platanus-xx.github.io/ThalesPosellaWebsite/css/front.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        
+    </head>
+    <body>
+        <div class="content">
+			{% if site.front_img %}
+            <img src="{{ site.front_img_path }}" id="fullscreen">
+            {% endif %}
+			<div id="space"></div>
+            {% if site.avatar %}
+                <img src="{{ site.avatar_img_path }}" id="avatar">
+            {% endif %}
+
+            <h1>{{ site.name }}</h1>
+			</br>
+            <h2>{{ site.description }}</h2>
+			</br>
+			</br>
+            <h3>Get to know the music...</h3>
+				<ul>
+					<li><a class="fa fa-2x fa-spotify" href="https://open.spotify.com/artist/2awEfAhaTrCLNHClsS5KKQ" target="_blank"><span class="description">Spotify</span></a></li>
+					<li><a class="fa fa-2x fa-apple" href="https://itunes.apple.com/br/album/the-seed-of-true-existence/1181892275?l=en" target="_blank"><span class="description">Apple Music</span></a></li>
+				</ul>
+				<h3>Site under remodeling... In the meantime, enjoy the content on social media bellow!</h3>
+				<ul>
+                    {% if site.youtube_username %}
+                    <li><a class="fa fa-2x fa-youtube-play" href="https://www.youtube.com/{{ site.youtube_username }}" target="_blank"><span class="description">YouTube</span></a></li>
+                    {% endif %}
+
+                    {% if site.instagram_username %}
+                    <li><a class="fa fa-2x fa-instagram" href="https://instagram.com/{{ site.instagram_username }}" target="_blank"><span class="description">Instagram</span></a></li>
+                    {% endif %}
+					
+                    {% if site.twitter_username %}
+                    <li><a class="fa fa-2x fa-twitter" href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><span class="description">Twitter</span></a></li>
+                    {% endif %}
+					
+                    {% if site.facebook_username %}
+                    <li><a class="fa fa-2x fa-facebook" href="https://facebook.com/{{ site.facebook_username }}" target="_blank"><span class="description">Facebook</span></a></li>
+                    {% endif %}
+
+                    {% if site.email %}
+                    <li><a class="fa fa-2x fa-envelope" href="mailto:{{ site.email }}" target="_blank"><span class="description">Email</span></a></li>
+                    {% endif %}			
+
+                </ul>
+			<div id="space"></div>
+        </div>
+		
+
+    </body>
+</html>
