@@ -1,6 +1,6 @@
 body {
     font-family: 'Open Sans',Helvetica,Arial,sans-serif;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(1, 1, 1, 0.9);
     position: absolute; 
     top: 0;
     bottom: 0;
@@ -21,7 +21,7 @@ body {
 }
 #avatar {
 /*	padding-top: 60px;*/
-    height: 180px;
+    height: 300px;
     border-radius: 100%;
     border: 5px solid white;
     margin-top: 40px;
