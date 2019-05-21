@@ -1,17 +1,17 @@
 # Site settings
-name: Thales Posella
-description: "Professional Musician | Session Guitar Player"
-url: "www.thalesposella.com"
+name: Tonantes Verdes Fritos
+description: "Banda de Pop Rock especializada em shows dançantes para pubs, festas e casamentos."
+url: "www.tonantes.com"
 
 
 # Delete the lines you don't need
 # about 5 elements are recomended
 github_username: platanus-xx
-facebook_username: platanusmaple
-twitter_username: thales_posella
-youtube_username: thalesposella
-instagram_username: thales_posella
-email: contact@thalesposella.com
+facebook_username: tonantes
+twitter_username: tonantes
+youtube_username: TonantesVerdesFritos
+instagram_username: tonantes
+email: naoetomates@tonantes.com
 
 
 avatar: yes	
