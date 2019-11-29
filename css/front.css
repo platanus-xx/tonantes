@@ -126,7 +126,7 @@ a {
     text-align: justify;
     border: 2px solid white;
     border-radius: 5px;
-    color: white;
+    color: rgb(184, 184, 184);
     padding: 15px;
     padding-left: 30px;
     width: 70%;
@@ -145,7 +145,7 @@ a:hover {
     font-family: Arial;
     margin-left: 40px;
 }
-.content {
+/* .content { */
 /*    padding-top: 60px;*/
-}
+/* } */
 }
