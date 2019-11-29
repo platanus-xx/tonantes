@@ -60,10 +60,10 @@ h3 {
     padding-top: 20%;
     padding-bottom: 80%;
 /*	height:auto;*/
-	
+	top: 0;
 	height:auto;
 	width:100%;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 ul {
