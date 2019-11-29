@@ -39,6 +39,14 @@ body {
     margin-top: 10%;
     margin-bottom: 10px;
 }
+#pics {
+    background-color: rgba(0, 0, 0, 1);
+    height: 400px;
+    width: 200px;
+    border: 2px solid rgb(103, 231, 107);
+    /* margin-top: 10%;
+    margin-bottom: 10px; */
+}
 h1 {
     color: rgb(0, 255, 21);
     font-weight: bold;
