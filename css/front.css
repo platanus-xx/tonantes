@@ -19,7 +19,8 @@ body {
     position: fixed;
     /* right: "20%"; */
     /* left: "15%"; */
-    top: 0;
+    /* top: 0; */
+    bottom: 0;
     left: 25%;
     right: 25%;
 }
