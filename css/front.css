@@ -32,6 +32,11 @@ body {
     margin-top: 20%;
     margin-bottom: 20px;
 }
+#lane {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 600px;
+    width: 100%;
+}
 h1 {
     color: rgb(72, 255, 0);
     font-weight: bold;
