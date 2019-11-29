@@ -81,10 +81,10 @@ ul {
 }
 li {
     border-radius: 100%;
-    border: 2px solid rgb(141, 141, 141);
+    border: 2px solid rgb(255, 255, 255);
     color: rgb(141, 141, 141);
     margin: 8px;
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(233, 232, 232);
     display: inline-block;
     list-style: none;
     width: 65px;
