@@ -76,7 +76,7 @@ li {
     border: 2px solid rgb(141, 141, 141);
     color: rgb(141, 141, 141);
     margin: 8px;
-    /* background-color: rgb(199, 199, 199); */
+    background-color: rgb(199, 199, 199);
     display: inline-block;
     list-style: none;
     width: 65px;
