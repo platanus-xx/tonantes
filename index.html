@@ -20,16 +20,16 @@ permalink: /
         
     </head>
     <body>
+        {% if site.front_img %}
+        <img src="{{ site.front_img_path }}" id="fullscreen">
+        {% endif %}
         <div id="space"></div>
         {% if site.avatar %}
             <img src="{{ site.avatar_img_path }}" id="avatar">
         {% endif %}
-        <div class="content">
-			{% if site.front_img %}
-            <img src="{{ site.front_img_path }}" id="fullscreen">
-            {% endif %}
-			
+        <div id="space"></div>
 
+        <div class="content">
             <h1>{{ site.name }}</h1>
 			</br>
             <h2>{{ site.description }}</h2>
@@ -57,9 +57,11 @@ permalink: /
                     {% endif %}			
 
                 </ul>
-			<div id="space"></div>
         </div>
-		
+        <div id="space"></div>
+        <div class="content">
+                <h3>Site em reconstrução... Enquanto isso, acesse nossas redes sociais abaixo!</h3>
+            </div>
 
     </body>
 </html>
