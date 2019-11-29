@@ -77,7 +77,7 @@ ul {
 li {
     border-radius: 100%;
     border: 2px solid white;
-    color: white;
+    color: rgb(141, 141, 141);
     margin: 8px;
     display: inline-block;
     list-style: none;
