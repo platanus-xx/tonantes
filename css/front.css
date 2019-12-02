@@ -168,9 +168,9 @@ a {
   /* Create four equal columns that sits next to each other */
   .column {
     border: 1px solid rgb(47, 0, 255);
-    -ms-flex: 25%; /* IE10 */
-    flex: 25%;
-    max-width: 25%;
+    -ms-flex: 22%; /* IE10 */
+    flex: 22%;
+    max-width: 22%;
     padding: 0 4px;
   }
   
