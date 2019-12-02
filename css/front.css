@@ -42,8 +42,8 @@ body {
 #pics {
     /* background-color: rgba(0, 0, 0, 0.1); */
     height: 400px;
-    width: 200px;
-    width: 50%;
+    width: 70%;
+    /* width: 50%; */
     margin-left: 25%;
     margin-right: 25%;
     /* border: 2px solid rgb(103, 231, 107); */
