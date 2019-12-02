@@ -157,6 +157,7 @@ a {
 
 }
 .row {
+    border: 1px solid rgb(255, 0, 0);
     display: -ms-flexbox; /* IE10 */
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
@@ -166,6 +167,7 @@ a {
   
   /* Create four equal columns that sits next to each other */
   .column {
+    border: 1px solid rgb(47, 0, 255);
     -ms-flex: 25%; /* IE10 */
     flex: 25%;
     max-width: 25%;
@@ -173,8 +175,6 @@ a {
   }
   
   .column img {
-    border: 1px;
-    border-color: "red";
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
