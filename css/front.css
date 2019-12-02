@@ -58,7 +58,7 @@ h1 {
     letter-spacing: 0.1em;
     font-size: 4em;
     font-family: 'Open Sans';
-    margin: -10px 0;
+    /* margin: -10px 0; */
 }
 h2 {
     color: #bcbcbc;
