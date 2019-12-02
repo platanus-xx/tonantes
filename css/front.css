@@ -173,6 +173,8 @@ a {
   }
   
   .column img {
+    border: 1px;
+    border-color: "red";
     margin-top: 8px;
     vertical-align: middle;
     width: 90%;
